@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <meta charset="UTF-8">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactUs.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <article>
+        <h2>Our Contact Info</h2>
+        
+        <div class="jmcontact">
+            <p>Phone: (000) 000-0000</p>
+            <p>Email: example@gmail.com</p>
+            <p>Address: 123 Main St.</p>
+            <p>San Francisco, CA 98765</p>
+        </div>
 
-    <body>
-        <h2>Contact Info</h2>
+        <div class="socials">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+
+        <h2>Your Contact Info</h2>
         <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
             
-            <label for="fname">First name:</label> <br>
-            <input type="text" id="fname" name="fname"> <br>
-            <label for="lname">Last name:</label> <br>
-            <input type="test" id="lname" name="lname"> <br> 
-            
-            <br>
-
-            <label for="gender">Gender:</label> <br>
-            <input type="radio" id="male" name="gender" value="Male">
-            <label for="male">Male</label> <br>
-            <input type="radio" id="female" name="gender" value="Female">
-            <label for="female">Female</label> <br>
-            <input type="radio" id="other" name="gender" value="Other">
-            <label for="other">Other</label> <br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
            
             <br>
 
-            <label for="email">Email:</label> <br>
-            <input type="text" id="email" name="email">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
 
+            <br>
+
+            <label for="message">About You:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
             <br><br>
-
+    
             <input type="submit" value="Submit">
         </form>
-    </body>
+    </article>
+</body>
 </html>
