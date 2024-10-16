@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    margin: 0;
+    padding: 20px;
+}
+
+article {
+    background: rgb(64, 60, 60);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(216, 211, 211);
+    max-width: 60rem;
+    margin: auto;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3331314d;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #9b2727;
+    border-bottom: 2px solid #9b2727; 
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #9b2727; 
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+p {
+    color: #d6cdcd;
+}
+
+.team-photo, .mission-image, .history-image {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.team-photo-div {
+    flex: 1; 
+    max-width: 200px; 
+    margin: 10px;
+    width: 50%;
+}
+
+.text1 {
+    flex: 1; 
+    max-width: 50%; 
+    padding-left: 10px; 
+}
