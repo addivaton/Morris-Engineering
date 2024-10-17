@@ -8,3 +8,5 @@ Requirements:
     - a MongoDB database
 
     Dependencies: 
+    Node v20.18.0
+    Express
