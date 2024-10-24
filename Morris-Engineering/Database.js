@@ -1,6 +1,4 @@
 const mysql = require('mysql2/promise');
-const mongoClient = require('mongodb').MongoClient;
-const url = "http://localhost:8080"
 
 async function insertIntoDatabase(fname, lname, email, message) {
     console.log("We're in the database function now...");

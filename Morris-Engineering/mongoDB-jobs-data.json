@@ -1,0 +1,93 @@
+[
+    {
+        "site": "manning creek",
+        "location": "lakeport, ca",
+        "owner": "Jackson Family Wines",
+        "year": 2025,
+        "type": "steel with steel deck"
+    },
+    {
+        "site": "big creek",
+        "location": "santa cruz, ca",
+        "owner": "big creek lumber",
+        "year": 2025,
+        "type": "railcar"
+    },
+    {
+        "site": "knights valley II",
+        "location": "knights valley, ca",
+        "owner": "private owner",
+        "year": 2025,
+        "type": "railcar"
+    },
+    {
+        "site": "knights bridge",
+        "location": "knights valley, ca",
+        "owner": "knights bridge vineyards",
+        "year": 2025,
+        "type": "steel beams with planking steel deck"
+    },
+    {
+        "site": "soquel west",
+        "location": "soquel, ca",
+        "owner": "private logging property",
+        "year": 2025,
+        "type": "steel beams with orthotropic steel deck"
+    },
+    {
+        "site": "somerston II",
+        "location": "st helena, ca",
+        "owner": "somerston vineyards",
+        "year": 2024,
+        "type": "steel beams with composite cast-in-place"
+    },
+    {
+        "site": "colgin",
+        "location": "st helena, ca",
+        "owner": "colgin cellars",
+        "year": 2023,
+        "type": "steel beams with steel planking deck"
+    },
+    {
+        "site": "rhys vineyards",
+        "location": "branscomb, ca",
+        "owner": "rhys vineyards",
+        "year": 2022,
+        "type": "railcar"
+    },
+    {
+        "site": "bodega",
+        "location": "bodega, ca",
+        "owner": "private owner",
+        "year": 2022,
+        "type": "railcar"
+    },
+    {
+        "site": "pop valley II",
+        "location": "pope valley, ca",
+        "owner": "private owner",
+        "year": 2022,
+        "type": "railcar"
+    },
+    {
+        "site": "gott",
+        "location": "st helena, ca",
+        "owner": "gott wines",
+        "year": 2022,
+        "type": "steel beams with steel deck"
+    },
+    {
+        "site": "boulder II",
+        "location": "boulder creek, ca",
+        "owner": "redwood empire sawmills",
+        "year": 2022,
+        "type": "railcar"
+    },
+    {
+        "site": "farmington",
+        "location": "stockton, ca",
+        "owner": "brighton tree company",
+        "year": 2021,
+        "type": "railcar"
+    }
+]

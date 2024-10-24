@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morris Engineering</title>
     <link rel="stylesheet" href="Index.css">
+    <style>
+        section {
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .job {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <p style="background-image: url('./images/bpimage1.png');" alt="blueprint image" id="bpimage"></p>
@@ -33,12 +61,27 @@
             <img src="./images/z_bridgeLogoSimple_outline.png" alt="morris engineering logo outline" class="z_bridgeLogoSimple_outline">
         </section>
 
-        <section class="main2">
-            <h2>
-                This is section 2
-            </h2>
+        <button id="loadJobsBtn">Load Jobs</button>
 
+        <section id="jobsSection">
+            <h2>Past, Present, and Future Jobs</h2>
+            <table class="jobs-table">
+                <thead>
+                    <tr>
+                        <th>Site</th>
+                        <th>Location</th>
+                        <th>Owner</th>
+                        <th>Year</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody id="jobsTableBody">
+                    <!-- Jobs will be dynamically added here -->
+                </tbody>
+            </table>
         </section>
+    
+        <script src="index.js"></script>
 
         <section class="main3">
             <h2>
