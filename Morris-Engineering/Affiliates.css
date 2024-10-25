@@ -1,28 +1,32 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+*{
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background image properties*/
+    background-image: url('/images/blueprint/bpimage2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image:
+    linear-gradient(rgba(172, 168, 168, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/blueprint/bpimage3.png');
 }
 
 h1 {
     margin: 0;
-    font-size: 2rem;
 }
 
 .content-container {
-    max-width: 1000px;
-    margin: 30px auto;
+    max-width: 1200px;
+    margin: 100px auto;
     padding: 20px;
-    background-color: white;
+    background-image: linear-gradient(#FEECD6, #cbbdac);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -32,9 +36,9 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #450000;
     padding-bottom: 5px;
-    color: #333;
+    color: #450000;
 }
 
 p {
@@ -54,13 +58,13 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #545454;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 ul li a:hover {
-    color: #388E3C;
+    color: #450000;
 }
 
 /* Responsive Design */
@@ -77,3 +81,71 @@ ul li a:hover {
         font-size: 1.4rem;
     }
 }
+
+/**** navigation bar ****/
+ 
+ /* Add a black translucent background color to the top navigation */
+ .navigation {
+    position: relative;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+
+    }
+  
+  /* Style the links inside the navigation bar */
+    .navigation a {
+    float: left;
+    color: #450000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+  
+  /* Change the color of links on hover */
+    .navigation a:hover {
+    background-color: #ddd;
+    color: #000000;
+    }
+  
+  /* Centered section inside the top navigation */
+    .navigation-center {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+  /* logo photo */
+    .team-photo-div {
+    flex: 1; 
+    max-width: 200px; 
+    margin: 10px;
+    width: 50%;
+    }
+  
+  /* Right-aligned section inside the top navigation */
+    .navigation-right {
+    float: right;
+    }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+    @media screen and (max-width: 600px) {
+    .navigation a, .navigation-right {
+      float: none;
+      display: block;
+    }
+  
+    .navigation-center a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+    }
