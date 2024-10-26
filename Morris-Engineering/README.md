@@ -1,4 +1,4 @@
-# CSC441 - Morris Engineering website
+# CSC441 - Morris Engineering website - Jacob Morris and  Branson Addington
 
 Requirements: 
     - minimum 5 HTML pages
