@@ -1,7 +1,7 @@
-# CSC441 - Morris Engineering website - Jacob Morris and  Branson Addington
+#  Morris Engineering website - Jacob Morris and  Branson Addington
 
-Requirements: 
-    - minimum 5 HTML pages
+Contains: 
+    - HTML pages
     - CSS descriptors
     - a Node.js web server
     - a MySQL database
@@ -33,3 +33,4 @@ To connect to the MongoDB server do the following steps:
 - create a new, standard connection
 - import (mongoDB-jobs-data.json), located in project folder
 - change 'mongoURI' and 'dbName' variables in server file to match your mongoDB database
+
